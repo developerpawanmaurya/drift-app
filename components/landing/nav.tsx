@@ -65,7 +65,7 @@ export function Nav() {
             <a href="#pricing">Sign in</a>
           </Button>
           <Button asChild size="sm">
-            <a href="#pricing">Get Drift</a>
+            <Link href="/onboarding">Free Trial</Link>
           </Button>
         </div>
       </div>

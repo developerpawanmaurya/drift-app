@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Check } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -72,7 +73,7 @@ export function Pricing() {
                   variant={p.featured ? "primary" : "outline"}
                   className="w-full"
                 >
-                  <a href="#">{p.cta}</a>
+                  <Link href="/onboarding">{p.cta}</Link>
                 </Button>
                 {p.featured ? (
                   <p className="mt-3 text-center text-caption text-ink-faint">

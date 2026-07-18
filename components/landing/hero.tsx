@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
@@ -69,10 +70,10 @@ export function Hero() {
               className="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-6"
             >
               <Button asChild size="lg">
-                <a href="#pricing">
+                <Link href="/onboarding">
                   Build my first plan
                   <ArrowRight className="size-4" aria-hidden />
-                </a>
+                </Link>
               </Button>
               <a
                 href="#how"
